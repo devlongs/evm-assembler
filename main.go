@@ -48,7 +48,6 @@ func main() {
 			continue
 		}
 
-		// Handle labels
 		if strings.HasSuffix(line, ":") {
 			label := strings.TrimSuffix(line, ":")
 			labels[label] = currentOffset
